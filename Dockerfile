@@ -1,4 +1,4 @@
-FROM prest/prest:v1
+FROM prest/prest
 
 ADD ./prest.toml /app/prest.toml
 WORKDIR /app
