@@ -6,4 +6,5 @@ WORKDIR /app
 # Variables that must pREST expect from heroku
 # - DATABASE_URL
 # - PORT
+ENTRYPOINT []
 CMD ["/app/prestd"]
